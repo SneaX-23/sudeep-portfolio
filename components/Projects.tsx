@@ -19,6 +19,22 @@ const projects: Project[] = [
     imageUrl: "/microservices_ph.jpg",
     link: "https://github.com/SneaX-23/Microservices-project"
   },
+  {
+    id: 3,
+    title: "Task Queue System",
+    description: "A Dockerized Node.js email task queue using BullMQ and Redis with built-in rate limiting.",
+    tags: ["TS", "BullMQ", "Nodejs", "Docker", "Redis"],
+    imageUrl: "/task_queue.png",
+    link: "https://github.com/SneaX-23/Task_queue_system"
+  },
+  {
+    id: 4,
+    title: "WebCrawTS",
+    description: "A concurrent web crawler built with TypeScript and Node.js that extracts page metadata and exports results to a CSV report.",
+    tags: ["TS", "jsdom", "Nodejs", "p-limit", "Vitest"],
+    imageUrl: "/web_crawler.png",
+    link: "https://github.com/SneaX-23/WebCrawlTS"
+  },
 ];
 
 const Projects: React.FC = () => {
