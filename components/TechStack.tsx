@@ -14,6 +14,7 @@ const skills = [
   { name: 'Prisma', icon: <Database className="w-4 h-4" /> },
   { name: 'Redis', icon: <Database className="w-4 h-4" /> },
   { name: 'JWT', icon: <Settings className="w-4 h-4" /> },
+  { name: "Go", icon: <Server className="w-4 h-4" /> },
 ];
 
 const TechStack: React.FC = () => {

@@ -2,7 +2,6 @@ import React from "react";
 import { BookOpen, Cloud, Server } from "lucide-react";
 
 const learning = [
-  { name: "Go", icon: <Server className="w-4 h-4" /> },
   { name: "Kubernetes", icon: <BookOpen className="w-4 h-4" /> },
   { name: "AWS", icon: <Cloud className="w-4 h-4" /> },
 ];
