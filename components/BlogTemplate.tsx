@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Home, ChevronRight, Moon, ChevronDown, X } from 'lucide-react';
 // --- LAYOUT COMPONENTS ---
 
@@ -23,7 +24,7 @@ export function BlogLayout({
         </div>
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium text-gray-300">
           {navLinks.map((link, i) => (
-            <Link key={i} href={link.href} className="hover:text-white transition-colors">
+            <Link key={i} to={link.href} className="hover:text-white transition-colors">
               {link.label}
             </Link>
           ))}
