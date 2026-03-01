@@ -6,7 +6,7 @@ export function BlogLayout({
   children, 
   authorName = "Sudeep Magadum",
   navLinks = [
-    { label: "Blogs", href: "https://portfolio.sneax.quest/blogs" },
+    { label: "Blogs", href: "/blogs" },
     { label: "Github", href: "https://github.com/SneaX-23" },
     { label: "About", href: "https://portfolio.sneax.quest" }
   ]
