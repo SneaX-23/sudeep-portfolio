@@ -27,3 +27,10 @@ export enum Theme {
   LIGHT = 'light',
   DARK = 'dark',
 }
+
+export interface BlogPost {
+  id: string;
+  title: string;
+  date: string;
+  content: string;
+}
