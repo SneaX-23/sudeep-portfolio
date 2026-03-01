@@ -8,7 +8,7 @@ export function BlogLayout({
   navLinks = [
     { label: "Blogs", href: "/blogs" },
     { label: "Github", href: "https://github.com/SneaX-23" },
-    { label: "About", href: "https://portfolio.sneax.quest" }
+    { label: "About", href: "/" }
   ]
 }: { 
   children: React.ReactNode;
@@ -23,9 +23,9 @@ export function BlogLayout({
         </div>
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium text-gray-300">
           {navLinks.map((link, i) => (
-            <a key={i} href={link.href} className="hover:text-white transition-colors">
+            <Link key={i} href={link.href} className="hover:text-white transition-colors">
               {link.label}
-            </a>
+            </Link>
           ))}
         </nav>
       </header>
